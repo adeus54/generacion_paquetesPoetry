@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "T_converter_na"
-version = "0.0.1"
+version = "0.1.0"
 description = "This tool is a demostration how to convert the temperatures beteween Celsius, Fahrenheit, Kelvin and Rankine"
 authors = ["Alex Aranda <alexarand32@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/adeus54/generacion_paquetesPoetry"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
